@@ -22,7 +22,7 @@ const Header = () => {
 
 // Define some basic styles for the header
 const headerStyle = {
-  backgroundColor: "#007BFF",
+  backgroundColor: "#00bbff",
   color: "white",
   padding: "10px 0",
   textAlign: "center",
