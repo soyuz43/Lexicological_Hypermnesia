@@ -10,13 +10,7 @@ const LearningJourney = () => {
     const userInput = tipOfTongue || continueLearning;
     if (!userInput) return;
 
-    try {
-      const res = await axios.post("/api/query", { input: userInput });
-      setResponse(res.data);
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  };
+  }
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
