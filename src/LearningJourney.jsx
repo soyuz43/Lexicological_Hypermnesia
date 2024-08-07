@@ -9,8 +9,7 @@ const LearningJourney = () => {
   const handleSubmit = async () => {
     const userInput = tipOfTongue || continueLearning;
     if (!userInput) return;
-
-  }
+  };
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
